@@ -1,0 +1,13 @@
+# your Array here
+num = [8,9,2,7,0,5]
+index = 0
+# using while loop with if else statement to find even and odd number
+while index < len(num):
+  if num[index] % 2 == 0:
+    print("index no -", index, "number -",num[index], "is even")
+  else:
+    print("index no -", index, "number -",num[index], "is odd")
+
+
+  index+= 1
+
